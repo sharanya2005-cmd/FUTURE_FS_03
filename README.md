@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fusion Boutique — Website Scaffold
 
 This repository contains a professional, responsive website scaffold for a local fusion fashion boutique (traditional + modern clothing for men and women).
@@ -23,3 +24,6 @@ Images
 Add your store photos to the `images/` folder (see `images/README.md` for filenames). The site references files like `images/hero.jpg`, `images/silk-saree.jpg`, `images/store.jpg`.
 - Add product pages or integrate with an e-commerce backend.
 - Deploy to GitHub Pages or host on a simple static host.
+=======
+# FUTURE_FS_03
+>>>>>>> 832b6a4b8c0ef60961510d65226fa4556629c707
