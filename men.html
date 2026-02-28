@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Men's collection at Fusion Boutique — kurtas, blazers, ethnic jackets and fusion wear for festivals and events." />
+  <meta property="og:title" content="Men's Collection — Fusion Boutique">
+  <meta property="og:description" content="Traditional and modern menswear: kurta-pyjama, blazers, ethnic jackets and more.">
+  <meta property="og:image" content="images/men-kurta.jpg">
+  <title>Men's Collection — Fusion Boutique</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Fusion Boutique</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="women.html">Women</a>
+        <a href="men.html">Men</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Men's Collection</h1>
+    <p>Traditional and modern menswear for weddings, festivals and everyday style.</p>
+
+    <div class="filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="traditional">Traditional</button>
+      <button data-filter="modern">Modern</button>
+      <button data-filter="fusion">Indo-Western</button>
+    </div>
+
+    <div class="gallery" id="gallery-men">
+      <figure data-category="traditional">
+        <picture>
+          <source srcset="images/men-kurta.jpg" type="image/jpeg">
+          <img src="images/men-kurta.svg" alt="Kurta">
+        </picture>
+        <figcaption>Kurta Pyjama</figcaption>
+      </figure>
+      <figure data-category="modern">
+        <picture>
+          <source srcset="images/men-blazer.jpg" type="image/jpeg">
+          <img src="images/men-blazer.svg" alt="Blazer">
+        </picture>
+        <figcaption>Party Blazer</figcaption>
+      </figure>
+      <figure data-category="fusion">
+        <picture>
+          <source srcset="images/men-jacket.jpg" type="image/jpeg">
+          <img src="images/men-jacket.svg" alt="Ethnic Jacket">
+        </picture>
+        <figcaption>Ethnic Jacket</figcaption>
+      </figure>
+    </div>
+  </main>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>

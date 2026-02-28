@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Women's collection at Fusion Boutique — traditional and modern women's wear, bridal lehengas, silk sarees and indo-western styles." />
+  <meta property="og:title" content="Women's Collection — Fusion Boutique">
+  <meta property="og:description" content="Explore our curated women's collection: silk sarees, gowns, lehengas and more.">
+  <meta property="og:image" content="images/women-saree.jpg">
+  <title>Women's Collection — Fusion Boutique</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Fusion Boutique</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="women.html">Women</a>
+        <a href="men.html">Men</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Women's Collection</h1>
+    <p>Explore our traditional and modern women's wear.</p>
+
+    <div class="filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="traditional">Traditional</button>
+      <button data-filter="modern">Modern</button>
+      <button data-filter="bridal">Bridal</button>
+    </div>
+
+    <div class="gallery" id="gallery">
+      <figure data-category="traditional">
+        <picture>
+          <source srcset="images/women-saree.jpg" type="image/jpeg">
+          <img src="images/women-saree.svg" alt="Saree">
+        </picture>
+        <figcaption>Silk Saree</figcaption>
+      </figure>
+      <figure data-category="modern">
+        <picture>
+          <source srcset="images/women-gown.jpg" type="image/jpeg">
+          <img src="images/women-gown.svg" alt="Gown">
+        </picture>
+        <figcaption>Evening Gown</figcaption>
+      </figure>
+      <figure data-category="bridal">
+        <picture>
+          <source srcset="images/women-lehenga.jpg" type="image/jpeg">
+          <img src="images/women-lehenga.svg" alt="Lehenga">
+        </picture>
+        <figcaption>Bridal Lehenga</figcaption>
+      </figure>
+      <figure data-category="traditional">
+        <picture>
+          <source srcset="images/women-kurti.jpg" type="image/jpeg">
+          <img src="images/women-kurti.svg" alt="Kurti">
+        </picture>
+        <figcaption>Embroidered Kurti</figcaption>
+      </figure>
+    </div>
+  </main>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
